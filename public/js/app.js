@@ -59289,68 +59289,72 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container max-w-xl px-8 mx-auto mt-6" }, [
-    _c("h1", { staticClass: "mb-3 text-3xl text-center" }, [
-      _vm._v("Overview")
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "mb-6 text-left" }, [
-      _vm._v(
-        '\n      This website is based on Traversy Media\'s "20+ Web Projects With Vanilla JavaScript" Udemy course. \n  '
-      )
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "mb-2 text-left" }, [
-      _vm._v(
-        "\n      The original course uses vanilla CSS and JavaScript. See the referenced links below.\n  "
-      )
-    ]),
-    _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c("div", { staticClass: "mt-6 mb-3 text-left" }, [
-      _vm._v(
-        "\n      This site takes on the same 20 exercises using Tailwind CSS, VueJS and PHP Laravel Framework. See the referenced Github repo below. \n  "
-      )
-    ]),
-    _vm._v(" "),
-    _vm._m(2),
-    _vm._v(" "),
-    _c("div", { staticClass: "w-full mt-8" }, [
-      _c("table", { staticClass: "w-full table-auto" }, [
-        _vm._m(3),
-        _vm._v(" "),
-        _c(
-          "tbody",
-          _vm._l(_vm.practices, function(practice, index) {
-            return _c("tr", { key: index }, [
-              _c("td", { staticClass: "px-4 py-2 text-center border" }, [
-                _vm._v(_vm._s(practice.id))
-              ]),
-              _vm._v(" "),
-              _c("td", { staticClass: "px-4 py-2 text-center border" }, [
-                _vm._v(_vm._s(practice.title))
-              ]),
-              _vm._v(" "),
-              _c("td", { staticClass: "px-4 py-2 text-center border" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "text-blue-500",
-                    attrs: { href: practice.id }
-                  },
-                  [_vm._v("Live Demo")]
-                )
-              ])
-            ])
-          }),
-          0
+  return _c(
+    "div",
+    { staticClass: "container max-w-xl px-8 mx-auto mt-6 mb-16" },
+    [
+      _c("h1", { staticClass: "mb-3 text-3xl text-center" }, [
+        _vm._v("Overview")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-6 text-left" }, [
+        _vm._v(
+          '\n      This website is based on Traversy Media\'s "20+ Web Projects With Vanilla JavaScript" Udemy course. \n  '
         )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-2 text-left" }, [
+        _vm._v(
+          "\n      The original course uses vanilla CSS and JavaScript. See the referenced links below.\n  "
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("div", { staticClass: "mt-6 mb-3 text-left" }, [
+        _vm._v(
+          "\n      This site takes on the same 20 exercises using Tailwind CSS, VueJS and PHP Laravel Framework. See the referenced Github repo below. \n  "
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(2),
+      _vm._v(" "),
+      _c("div", { staticClass: "w-full mt-8" }, [
+        _c("table", { staticClass: "w-full table-auto" }, [
+          _vm._m(3),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            _vm._l(_vm.practices, function(practice, index) {
+              return _c("tr", { key: index }, [
+                _c("td", { staticClass: "px-4 py-2 text-center border" }, [
+                  _vm._v(_vm._s(practice.id))
+                ]),
+                _vm._v(" "),
+                _c("td", { staticClass: "px-4 py-2 text-center border" }, [
+                  _vm._v(_vm._s(practice.title))
+                ]),
+                _vm._v(" "),
+                _c("td", { staticClass: "px-4 py-2 text-center border" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-blue-500",
+                      attrs: { href: practice.id }
+                    },
+                    [_vm._v("Live Demo")]
+                  )
+                ])
+              ])
+            }),
+            0
+          )
+        ])
       ])
-    ])
-  ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {

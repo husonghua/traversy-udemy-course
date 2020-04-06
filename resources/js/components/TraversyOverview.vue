@@ -1,5 +1,5 @@
 <template>
-  <div class='container max-w-xl px-8 mx-auto mt-6'>
+  <div class='container max-w-xl px-8 mx-auto mt-6 mb-16'>
     <h1 class="mb-3 text-3xl text-center">Overview</h1>
     <div class="mb-6 text-left">
         This website is based on Traversy Media's "20+ Web Projects With Vanilla JavaScript" Udemy course. 
