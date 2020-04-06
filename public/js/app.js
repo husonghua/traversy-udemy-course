@@ -18695,7 +18695,102 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      practices: [{
+        id: 1,
+        title: "Form Validator"
+      }, {
+        id: 2,
+        title: "Movie Seat Booking"
+      }, {
+        id: 3,
+        title: "Custom Video Player"
+      }, {
+        id: 4,
+        title: "Exchange Rate Calculator"
+      }, {
+        id: 5,
+        title: "DOM Array Methods Project"
+      }, {
+        id: 6,
+        title: "Menu Slider & Modal"
+      }, {
+        id: 7,
+        title: "Hangman Game"
+      }, {
+        id: 8,
+        title: "Mealfinder App"
+      }, {
+        id: 9,
+        title: "Expense Tracker	"
+      }, {
+        id: 10,
+        title: "Music Player"
+      }, {
+        id: 11,
+        title: "Infinite Scrolling"
+      }, {
+        id: 12,
+        title: "Typing Game"
+      }, {
+        id: 13,
+        title: "Speech Text Reader"
+      }, {
+        id: 14,
+        title: "Memory Cards"
+      }, {
+        id: 15,
+        title: "LyricsSearch App"
+      }, {
+        id: 16,
+        title: "Relaxer App"
+      }, {
+        id: 17,
+        title: "Breakout Game	"
+      }, {
+        id: 18,
+        title: "New Year Countdown"
+      }, {
+        id: 19,
+        title: "Sortable List"
+      }, {
+        id: 20,
+        title: "Speak Number Guessing Game"
+      }]
+    };
+  }
+});
 
 /***/ }),
 
@@ -59194,47 +59289,129 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container max-w-xl px-8 mx-auto mt-6" }, [
+    _c("h1", { staticClass: "mb-3 text-3xl text-center" }, [
+      _vm._v("Overview")
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "mb-6 text-left" }, [
+      _vm._v(
+        '\n      This website is based on Traversy Media\'s "20+ Web Projects With Vanilla JavaScript" Udemy course. \n  '
+      )
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "mb-2 text-left" }, [
+      _vm._v(
+        "\n      The original course uses vanilla CSS and JavaScript. See the referenced links below.\n  "
+      )
+    ]),
+    _vm._v(" "),
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c("div", { staticClass: "mt-6 mb-3 text-left" }, [
+      _vm._v(
+        "\n      This site takes on the same 20 exercises using Tailwind CSS, VueJS and PHP Laravel Framework. See the referenced Github repo below. \n  "
+      )
+    ]),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _c("div", { staticClass: "w-full mt-8" }, [
+      _c("table", { staticClass: "w-full table-auto" }, [
+        _vm._m(3),
+        _vm._v(" "),
+        _c(
+          "tbody",
+          _vm._l(_vm.practices, function(practice, index) {
+            return _c("tr", { key: index }, [
+              _c("td", { staticClass: "px-4 py-2 text-center border" }, [
+                _vm._v(_vm._s(practice.id))
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-2 text-center border" }, [
+                _vm._v(_vm._s(practice.title))
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-2 text-center border" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "text-blue-500",
+                    attrs: { href: practice.id }
+                  },
+                  [_vm._v("Live Demo")]
+                )
+              ])
+            ])
+          }),
+          0
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container max-w-xl mx-auto mt-6" }, [
-      _c("h1", { staticClass: "mb-3 text-3xl text-center" }, [
-        _vm._v("Overview")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "mb-6 text-left" }, [
-        _vm._v(
-          '\n      This repo is based on Traversy Media\'s "20+ Web Projects With Vanilla JavaScript" Udemy course. The original course uses the vanilla CSS and JavaScript. This repo takes on the same 20 exercises using Tailwind CSS, VueJS and PHP Laravel Framework.\n  '
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", [
-        _c(
-          "a",
-          {
-            staticClass: "text-blue-500",
-            attrs: {
-              href:
-                "https://www.udemy.com/course/web-projects-with-vanilla-javascript/"
-            }
-          },
-          [_vm._v("Udemy Course Link")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", [
-        _c(
-          "a",
-          {
-            staticClass: "text-blue-500",
-            attrs: { href: "https://vanillawebprojects.com/" }
-          },
-          [_vm._v("Live Memo By Traversy Media")]
-        )
+    return _c("div", [
+      _c(
+        "a",
+        {
+          staticClass: "text-blue-500",
+          attrs: {
+            href:
+              "https://www.udemy.com/course/web-projects-with-vanilla-javascript/"
+          }
+        },
+        [_vm._v("Udemy Course Link")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "a",
+        {
+          staticClass: "text-blue-500",
+          attrs: { href: "https://vanillawebprojects.com/" }
+        },
+        [_vm._v("Live Memo By Traversy Media")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "a",
+        {
+          staticClass: "text-blue-500",
+          attrs: { href: "https://github.com/husonghua/traversy-udemy-course" }
+        },
+        [_vm._v("My Github Repo")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", { staticClass: "px-4 py-2" }, [_vm._v("#")]),
+        _vm._v(" "),
+        _c("th", { staticClass: "px-4 py-2" }, [_vm._v("Practice")]),
+        _vm._v(" "),
+        _c("th", { staticClass: "px-4 py-2" }, [_vm._v("Live Demo")])
       ])
     ])
   }
