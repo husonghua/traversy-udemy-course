@@ -18671,6 +18671,34 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TraversyOverview.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TraversyOverview.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -59151,6 +59179,72 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TraversyOverview.vue?vue&type=template&id=5aa49c0a&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TraversyOverview.vue?vue&type=template&id=5aa49c0a& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container max-w-xl mx-auto mt-6" }, [
+      _c("h1", { staticClass: "mb-3 text-3xl text-center" }, [
+        _vm._v("Overview")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-6 text-left" }, [
+        _vm._v(
+          '\n      This repo is based on Traversy Media\'s "20+ Web Projects With Vanilla JavaScript" Udemy course. The original course uses the vanilla CSS and JavaScript. This repo takes on the same 20 exercises using Tailwind CSS, VueJS and PHP Laravel Framework.\n  '
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c(
+          "a",
+          {
+            staticClass: "text-blue-500",
+            attrs: {
+              href:
+                "https://www.udemy.com/course/web-projects-with-vanilla-javascript/"
+            }
+          },
+          [_vm._v("Udemy Course Link")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c(
+          "a",
+          {
+            staticClass: "text-blue-500",
+            attrs: { href: "https://vanillawebprojects.com/" }
+          },
+          [_vm._v("Live Memo By Traversy Media")]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -71348,11 +71442,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Traversy18_vue__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/Traversy18.vue */ "./resources/js/components/Traversy18.vue");
 /* harmony import */ var _components_Traversy19_vue__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/Traversy19.vue */ "./resources/js/components/Traversy19.vue");
 /* harmony import */ var _components_Traversy20_vue__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/Traversy20.vue */ "./resources/js/components/Traversy20.vue");
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
-/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @fortawesome/free-regular-svg-icons */ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
-/* harmony import */ var _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @fortawesome/vue-fontawesome */ "./node_modules/@fortawesome/vue-fontawesome/index.es.js");
+/* harmony import */ var _components_TraversyOverview_vue__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/TraversyOverview.vue */ "./resources/js/components/TraversyOverview.vue");
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @fortawesome/free-regular-svg-icons */ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @fortawesome/vue-fontawesome */ "./node_modules/@fortawesome/vue-fontawesome/index.es.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -71396,8 +71491,9 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_20__["library"].add(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faRandom"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faSearch"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faTimesCircle"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faBars"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faTimes"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faCoffee"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faChild"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faCircle"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faArchive"], _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faComment"], _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_23__["faTwitter"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faPlay"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faStop"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faPause"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_21__["faCog"]);
-Vue.component('font-awesome-icon', _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_24__["FontAwesomeIcon"]);
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_21__["library"].add(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faRandom"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faSearch"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faTimesCircle"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faBars"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faTimes"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faCoffee"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faChild"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faCircle"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faArchive"], _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_23__["faComment"], _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_24__["faTwitter"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faPlay"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faStop"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faPause"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_22__["faCog"]);
+Vue.component('font-awesome-icon', _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_25__["FontAwesomeIcon"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -71426,7 +71522,8 @@ var app = new Vue({
     'traversy-17': _components_Traversy17_vue__WEBPACK_IMPORTED_MODULE_16__["default"],
     'traversy-18': _components_Traversy18_vue__WEBPACK_IMPORTED_MODULE_17__["default"],
     'traversy-19': _components_Traversy19_vue__WEBPACK_IMPORTED_MODULE_18__["default"],
-    'traversy-20': _components_Traversy20_vue__WEBPACK_IMPORTED_MODULE_19__["default"]
+    'traversy-20': _components_Traversy20_vue__WEBPACK_IMPORTED_MODULE_19__["default"],
+    'traversy-overview': _components_TraversyOverview_vue__WEBPACK_IMPORTED_MODULE_20__["default"]
   }
 });
 
@@ -73254,6 +73351,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Traversy9_vue_vue_type_template_id_092f2418___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Traversy9_vue_vue_type_template_id_092f2418___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/TraversyOverview.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/TraversyOverview.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TraversyOverview_vue_vue_type_template_id_5aa49c0a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TraversyOverview.vue?vue&type=template&id=5aa49c0a& */ "./resources/js/components/TraversyOverview.vue?vue&type=template&id=5aa49c0a&");
+/* harmony import */ var _TraversyOverview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TraversyOverview.vue?vue&type=script&lang=js& */ "./resources/js/components/TraversyOverview.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TraversyOverview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TraversyOverview_vue_vue_type_template_id_5aa49c0a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TraversyOverview_vue_vue_type_template_id_5aa49c0a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/TraversyOverview.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/TraversyOverview.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/TraversyOverview.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TraversyOverview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./TraversyOverview.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TraversyOverview.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TraversyOverview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TraversyOverview.vue?vue&type=template&id=5aa49c0a&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/TraversyOverview.vue?vue&type=template&id=5aa49c0a& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TraversyOverview_vue_vue_type_template_id_5aa49c0a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./TraversyOverview.vue?vue&type=template&id=5aa49c0a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TraversyOverview.vue?vue&type=template&id=5aa49c0a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TraversyOverview_vue_vue_type_template_id_5aa49c0a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TraversyOverview_vue_vue_type_template_id_5aa49c0a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

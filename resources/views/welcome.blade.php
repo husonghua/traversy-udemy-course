@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Traversy Udemy Course Pratices</title>
         <link rel="stylesheet" href="{{mix('css/main.css')}}">
         <script src="{{mix('js/app.js')}}" defer></script>
         <!-- Fonts -->
@@ -16,7 +16,7 @@
     </head>
     <body class='antialiased bg-gray-100'>
         <div id="app">
-            <traversy-11 />
+            <traversy-overview />
         </div>
     </body>
 </html>

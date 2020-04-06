@@ -39,6 +39,7 @@ import Traversy17 from './components/Traversy17.vue'
 import Traversy18 from './components/Traversy18.vue'
 import Traversy19 from './components/Traversy19.vue'
 import Traversy20 from './components/Traversy20.vue'
+import TraversyOverview from './components/TraversyOverview.vue'
 
 import {
     library
@@ -118,6 +119,7 @@ const app = new Vue({
         'traversy-18': Traversy18,
         'traversy-19': Traversy19,
         'traversy-20': Traversy20,
+        'traversy-overview': TraversyOverview,
 
     }
 });
